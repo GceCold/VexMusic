@@ -1,0 +1,19 @@
+gui:
+  gui: '[local]gui-2-02.png'
+  x: -1
+  y: -1
+  width: 170
+  high: 40
+text:
+  title:
+    enable: true
+    x: 5
+    y: 5
+    message:
+      - "为别人点歌"
+  title2:
+    enable: true
+    x: 5
+    y: 20
+    message:
+      - "玩家："

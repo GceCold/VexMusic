@@ -1,0 +1,41 @@
+gui:
+  gui: "[local]gui-2-02.png"
+  x: -1
+  y: -1
+  width: 305
+  high: 190
+button:
+  list:
+    url1: "[local]button-null.png"
+    url2: "[local]button-null.png"
+    width: 260
+    high: 15
+scrollingList:
+  list:
+    enable: true
+    x: 8
+    y: 22
+    width: 285
+    high: 160
+  musicLists:
+    # 歌单按钮
+    enable: true
+    # 第一行第一个开始位置
+    x: 5
+    y: 2
+    # 每行的个数
+    number: 4
+    # 每个图片的大小
+    width: 65
+    high: 65
+    # 两个图片间的间隔
+    interval: 3
+    # 行间距
+    row-spacing: 17
+text:
+  title:
+    enable: true
+    x: 12
+    y: 8
+    message:
+      - "搜索§b %name% §f共§e%amount%§f个结果"

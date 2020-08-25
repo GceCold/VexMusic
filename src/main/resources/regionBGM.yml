@@ -1,0 +1,21 @@
+region:
+  enable: true
+  #配置文件编码请根据系统不同自行转码
+
+  #区域名自定义
+  region1:
+    # 区域所在世界
+    world: world
+    # 点1
+    loc1:
+      x: 100
+      y: 100
+      z: 100
+      # 点2
+    loc2:
+      x: 200
+      y: 200
+      z: 200
+    music: "[name]§XXX"
+    # 是否循环播放
+    loop: false

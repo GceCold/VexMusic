@@ -1,0 +1,14 @@
+soundlist:
+  # 是否开启服务器音效
+  #配置文件编码请根据系统不同自行转码
+  enable: true
+  # 是否显示播放信息
+  display: false
+  # 当播放器正在播放音乐时，是否停止当前播放音频
+  replace: false
+  # 目前仅支持MP3，请将mp3放在".Minecraft/music/sound"中，若没有该文件夹请自行创建。如果有问题请观看教程视频
+  # 建议文件名为英文，中文名可能会出现玄学错误
+  # 有无空格无所谓，无需按照点歌的方式来[滑稽]
+  # [web] [local]
+  soundname:
+    - "[local]test.mp3"

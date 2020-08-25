@@ -1,0 +1,12 @@
+timing:
+  #修改定时信息后需要重启服务器
+  enable: false
+  #名字随意
+  test:
+    #HH:mm:ss 24时制
+    time: "6:00:00"
+    musicName: "国歌"
+  test2:
+    time: "8:00:00"
+    musicName: "国歌"
+  #以此类推

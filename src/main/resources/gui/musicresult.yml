@@ -1,0 +1,41 @@
+gui:
+  gui: "[local]gui-2-02.png"
+  x: -1
+  y: -1
+  width: 300
+  high: 190
+button:
+  list:
+    url1: "[local]button-null.png"
+    url2: "[local]button-null.png"
+    width: 260
+    high: 15
+scrollingList:
+  list:
+    enable: true
+    x: 15
+    y: 22
+    width: 270
+    high: 160
+text:
+  title:
+    enable: true
+    x: 12
+    y: 8
+    message:
+      - "搜索 %name% 共%amount%个"
+checkBox:
+  server:
+    x: 15
+    y: 35
+    url1: "[local]CheckBox-3-0.png"
+    url2: "[local]CheckBox-3-1.png"
+    width: 25
+    high: 10
+  send:
+    x: 50
+    y: 35
+    url1: "[local]CheckBox-4-0.png"
+    url2: "[local]CheckBox-5-1.png"
+    width: 30
+    high: 10

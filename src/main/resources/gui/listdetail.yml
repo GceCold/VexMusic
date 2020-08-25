@@ -1,0 +1,40 @@
+gui:
+  gui: "[local]gui-2-02.png"
+  x: -1
+  y: -1
+  width: 150
+  high: 190
+  xshow: 150
+  yshow: 190
+text:
+  title:
+    enable: true
+    x: 10
+    y: 8
+    message:
+      - "歌单："
+  musicListName:
+    enable: true
+    x: 50
+    y: 8
+scrollingList:
+  musicList:
+    enable: true
+    x: 5
+    y: 39
+    width: 140
+    high: 140
+button:
+  music:
+    url1: "[local]button-null.png"
+    url2: "[local]button-null.png"
+    width: 135
+    high: 15
+  addToPlayList:
+    url1: "[local]button-11.png"
+    url2: "[local]button-11.png"
+    x: 5
+    y: 20
+    width: 76
+    high: 15
+    name: ""

@@ -1,0 +1,13 @@
+world:
+  #是否开启进入世界播放音乐的功能
+  enable: true
+  #是否与其他音乐或音效叠加
+  overlay: true
+  #世界名
+  world:
+    #[web]网络链接 [local]本地歌曲 [name]使用服务器设置的默认音乐服务器搜索歌曲播放
+    music: "[name]Valder Fields"
+    loop: false
+  sc:
+    music: "[web]https://123.com/123.mp3"
+    loop: false

@@ -1,0 +1,25 @@
+name: VexMusic
+version: ${project.version}
+main: ltd.icecold.vexmusic.VexMusic
+authors: [icecold]
+description: vexmusic
+website: https://www.vexmusic.top/
+commands:
+  music:
+    usage: /music help
+permissions:
+  music.server:
+    description: 全服点歌使用权限
+    default: op
+  music.play:
+    description: 点歌权限
+    default: true
+  music.send:
+    description: 为他人点歌权限
+    default: true
+  music.gui:
+    description: 打开GUI权限
+    default: true
+  music.lrc:
+    description: 显示歌词权限
+    default: true

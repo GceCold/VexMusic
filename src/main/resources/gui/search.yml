@@ -1,0 +1,45 @@
+gui:
+  gui: '[local]gui-2-02.png'
+  x: -1
+  y: -1
+  width: 200
+  high: 50
+  xshow: 200
+  yshow: 50
+button:
+  search:
+    message: " "
+    url: '[local]button-08.png'
+    url2: '[local]button-08.png'
+    x: 145
+    y: -1
+    width: 45
+    high: 15
+textField:
+  x: 15
+  y: -1
+  width: 120
+  high: 12
+  text: "请输入歌曲名字（可加歌手）"
+text:
+  title:
+    enable: true
+    x: 4
+    y: 3
+    message:
+      - "歌曲搜索"
+checkBox:
+  music:
+    x: 15
+    y: 35
+    url1: "[local]CheckBox-1-0.png"
+    url2: "[local]CheckBox-1-1.png"
+    width: 25
+    high: 10
+  playlist:
+    x: 50
+    y: 35
+    url1: "[local]CheckBox-2-0.png"
+    url2: "[local]CheckBox-2-1.png"
+    width: 25
+    high: 10

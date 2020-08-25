@@ -1,0 +1,36 @@
+plugin:
+  #请勿修改
+  #配置文件编码请根据系统不同自行转码
+  version: "2.0.0"
+  #请认真阅读并同意本插件的EULA协议：https://ice-cold.ltd/eula.html
+  eula: false
+play:
+  paid:
+    #点歌是否付费
+    enable: false
+    cost: 10
+  stop:
+    #/stop指令是否可以停止播放自定义音效
+    soundStop: true
+send:
+  #两次为他人点歌所需间隔  单位为秒
+  cooldown: 120
+  paid:
+    #为他人点歌是否付费
+    enable: true
+    cost: 100
+
+musicserver:
+  #全服点歌冷却
+  cd: 120
+
+join:
+  #进服背景音乐
+  enable: true
+  #[web]网络链接 [local]本地歌曲 [name]默认音乐服务器播放
+  sound: "[name]Hop"
+  #是否循环播放
+  loop: true
+lyric:
+  enable: true
+  color: "AQUA"

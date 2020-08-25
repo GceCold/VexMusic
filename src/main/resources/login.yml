@@ -1,0 +1,12 @@
+vexmusic:
+  username: ""
+  code: ""
+  #XXXX-XXXX-XXXX-XXXX-XXXX-XXXX
+netease:
+  phone: ""
+  email: ""
+  md5Password: ""
+  #手机登录与网易邮箱登录任选其一，如果都填写默认使用手机登录
+  #登录密码为密码的32位MD5值，保护用户隐私
+  #插件服务器不会记录任何用户账号信息
+  #使用本功能前请仔细阅读eula协议
