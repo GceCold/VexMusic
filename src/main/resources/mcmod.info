@@ -1,0 +1,16 @@
+[
+{
+  "modid": "vexmusic",
+  "name": "VexMusic Mod",
+  "description": "Music Player",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["IceCold"],
+  "credits": "Mod For Plugin VexMusic",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
