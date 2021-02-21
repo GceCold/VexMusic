@@ -47,7 +47,7 @@ public class NetworkHandle {
                     JMusicHandle.PluginMessageHandle(json);
                 }
                 if ("play_music_now".equals(type)) {
-                        NMusicHandle.PluginMessageHandle(json);
+                    NMusicHandle.PluginMessageHandle(json);
                 }
             }
         }
